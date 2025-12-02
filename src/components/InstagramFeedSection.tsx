@@ -138,30 +138,92 @@ const InstagramFeedSection = () => {
             </div>
           </div>
 
-          {/* Right side - Monthly Events Flyer */}
+          {/* Right side - November Calendar */}
           <div className="flex flex-col items-center">
             <div className="mb-4 text-center">
               <h3 className="font-montserrat font-bold text-2xl text-capoeira-blue mb-2">
-                This Month's Events
+                November Calendar 🤸🏻‍♀️🏃🏽‍♀️
               </h3>
               <p className="text-gray-600">
-                Stay updated with our latest workshops, performances, and
-                special events
+                Stay updated with our latest classes, rodas, and special events
               </p>
             </div>
             <div className="w-full max-w-md mx-auto">
-              <div className="bg-white rounded-xl overflow-hidden shadow-2xl border-4 border-capoeira-yellow/20 hover:border-capoeira-yellow/40 transition-all duration-300 transform hover:scale-105">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F1fc37cd62fb14e1f9770921a95c189a9%2Fc6dc8901ba2a4a7c8f2ce4330df3c320?format=webp&width=800"
-                  alt="Ondas Capoeira Monthly Events Flyer"
-                  className="w-full h-auto object-contain"
-                  style={{ aspectRatio: "3/4", minHeight: "500px" }}
-                />
+              <div className="bg-white rounded-xl overflow-hidden shadow-2xl border-4 border-capoeira-yellow/20 hover:border-capoeira-yellow/40 transition-all duration-300 transform hover:scale-105 p-6">
+                <div className="space-y-3 max-h-96 overflow-y-auto">
+                  <div className="space-y-2">
+                    <div className="text-sm">
+                      <span className="font-bold text-capoeira-blue">11/02 – Sunday</span>
+                      <p className="text-gray-700">Roda at Providence BJJ</p>
+                    </div>
+                    <div className="text-sm">
+                      <span className="font-bold text-capoeira-blue">11/03 – Monday</span>
+                      <p className="text-gray-700">Class</p>
+                    </div>
+                    <div className="text-sm">
+                      <span className="font-bold text-capoeira-blue">11/06 – Thursday</span>
+                      <p className="text-gray-700">Class</p>
+                    </div>
+                    <div className="text-sm">
+                      <span className="font-bold text-capoeira-blue">11/09 – Sunday</span>
+                      <p className="text-gray-700">
+                        Roda at Providence BJJ<br />
+                        Taba and Zuca at Jogo de Cinturas in Vermont
+                      </p>
+                    </div>
+                    <div className="text-sm">
+                      <span className="font-bold text-capoeira-blue">11/10 – Monday</span>
+                      <p className="text-gray-700">Class</p>
+                    </div>
+                    <div className="text-sm">
+                      <span className="font-bold text-capoeira-blue">11/11 – Tuesday</span>
+                      <p className="text-gray-700">ONDAS Roda at AMP (6–8:30pm)</p>
+                    </div>
+                    <div className="text-sm">
+                      <span className="font-bold text-capoeira-blue">11/13 – Thursday</span>
+                      <p className="text-gray-700">Class</p>
+                    </div>
+                    <div className="text-sm">
+                      <span className="font-bold text-capoeira-blue">11/16 – Sunday</span>
+                      <p className="text-gray-700">Roda at Providence BJJ</p>
+                    </div>
+                    <div className="text-sm">
+                      <span className="font-bold text-capoeira-blue">11/17 – Monday</span>
+                      <p className="text-gray-700">Class</p>
+                    </div>
+                    <div className="text-sm">
+                      <span className="font-bold text-capoeira-blue">11/20 – Thursday</span>
+                      <p className="text-gray-700">Class</p>
+                    </div>
+                    <div className="text-sm">
+                      <span className="font-bold text-capoeira-blue">11/21 – Friday</span>
+                      <p className="text-gray-700">ONDAS Roda at NewWave (6:30–8:30pm)</p>
+                    </div>
+                    <div className="text-sm">
+                      <span className="font-bold text-capoeira-blue">11/23 – Sunday</span>
+                      <p className="text-gray-700">Roda at Providence BJJ</p>
+                    </div>
+                    <div className="text-sm">
+                      <span className="font-bold text-capoeira-blue">11/24 – Monday</span>
+                      <p className="text-gray-700">Class</p>
+                    </div>
+                    <div className="text-sm bg-capoeira-green/10 p-2 rounded">
+                      <span className="font-bold text-capoeira-green">11/27 – Thursday</span>
+                      <p className="text-gray-700">Thanksgiving – NO CLASS ‼️</p>
+                    </div>
+                    <div className="text-sm">
+                      <span className="font-bold text-capoeira-blue">11/30 – Sunday</span>
+                      <p className="text-gray-700">ONDAS Open Roda at Providence BJJ</p>
+                    </div>
+                  </div>
+                  <div className="border-t border-gray-200 pt-3 mt-3 text-xs text-gray-600 italic">
+                    ✨ ONDAS Roda in any location is open to any ONDAS student ‼️
+                  </div>
+                </div>
               </div>
               <div className="mt-4 text-center">
                 <p className="text-sm text-gray-600 mb-3">
-                  New flyer every month with upcoming events, workshops, and
-                  special classes
+                  Events and class schedule for November
                 </p>
                 <div className="flex gap-2 justify-center">
                   <span className="bg-capoeira-green/10 text-capoeira-green px-3 py-1 rounded-full text-xs font-medium">
